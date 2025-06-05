@@ -70,17 +70,7 @@ https://github.com/LeeJuHyeong0492/VisitLogger
    - SNS 주제(Topic)로 이메일 알림 전송
    - 모든 실행 로그를 CloudWatch에 자동 기록
 
-###  시각적 구조
-```mermaid
-graph TD
-A[사용자 버튼 클릭] --> B[로컬 Flask 웹앱]
-B --> C[API Gateway 요청 전송]
-C --> D[Lambda 함수 실행]
-D --> E[DynamoDB에 저장]
-D --> F[S3 로그 파일 생성]
-D --> G[SNS 이메일 전송]
-D --> H[CloudWatch 로그 기록]
-```
+
 ##  AWS 구성 및 설정
 
 - **API Gateway**
