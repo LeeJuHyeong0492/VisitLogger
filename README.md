@@ -2,7 +2,7 @@
 
 ## 프로젝트 설명
 
-VisitLogger는 방문 기록 남기기 버튼으로 AWS의 S3, DynamoDB, SNS, CloudWatch에 모든 기록을 자동으로 기록하는 웹 애플리케이션 입니다.
+VisitLogger는 출석 체크 버튼으로 AWS의 S3, DynamoDB, SNS, CloudWatch에 모든 기록을 자동으로 기록하는 웹 애플리케이션 입니다.
 
 ---
 깃허브 링크
